@@ -1,0 +1,39 @@
+1.- clonar proyecto del repo
+
+git clone [url]
+
+2.- situarnos dentro de la carpeta del proyecto clonado
+
+3.- crear nuestra rama y situarnos dentro
+
+git checkout -b nombrerama
+
+4.- comprobar ramas
+
+git branch
+
+5.- añadir nuestras modificaciones al proyecto clonado
+
+6.- poner en stage las modificaciones realizadas
+
+git add .
+
+7.- realizar el commit 
+
+git commit -m "mensaje"
+
+[8.- Subir proyecto al repo]
+
+[git push -u origin main]
+
+9.- cambiar a rama main 
+
+git checkout main
+
+10.- fusionar las ramas
+
+git merge nombrerama
+
+11.- realizar push al repositorio
+
+git push -u origin main
