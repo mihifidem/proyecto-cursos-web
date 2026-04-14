@@ -1,4 +1,4 @@
-1.- clonar proyecto del repo
+1.- clonar proyecto del repo Github
 
 git clone [url]
 
@@ -8,7 +8,7 @@ git clone [url]
 
 git checkout -b nombrerama
 
-4.- comprobar ramas
+4.- comprobar ramas (opcional)
 
 git branch
 
@@ -22,18 +22,26 @@ git add .
 
 git commit -m "mensaje"
 
-[8.- Subir proyecto al repo]
+8.- Subir proyecto al repo si queremos ver la rama creada (opcional)
 
-[git push -u origin main]
+git push -u origin main
 
 9.- cambiar a rama main 
 
 git checkout main
 
-10.- fusionar las ramas
+10.- fusionar las ramas (siempre desde la rama pricipal)
 
 git merge nombrerama
 
-11.- realizar push al repositorio
+11.- realizar push al repositorio Github
 
 git push -u origin main
+
+12.- En Github deberíamos ver nuestros cambios
+
+13.- Si necesitamos realizar más cambios lo primero es volvernos a traer el repositorio 
+
+git pull 
+
+14.- creamos una nueva rama y seguimos de nuevo los pasos anteriores
